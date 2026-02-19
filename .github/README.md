@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kinesis-video`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video/v/3.911.0).
+[`@aws-sdk/client-kinesis-video`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video/v/3.913.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.911.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.913.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-IH8qogHWOnJTcK8Yaw+TSbUqErMIHuFCl6SOYyAtLkoNcCKnpvrLwdqwStL2C2yL
+sha384-qXHTSuZi+fOCKKWkS8zrcgEcOD3quE3UXfUFr3vFikAshJlQy8UpN+KbrtZ7il6k
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kinesis-video": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.911.0/index.min.mjs"
+            "@aws-sdk/client-kinesis-video": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.913.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.911.0/index.min.mjs": "sha384-IH8qogHWOnJTcK8Yaw+TSbUqErMIHuFCl6SOYyAtLkoNcCKnpvrLwdqwStL2C2yL"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.913.0/index.min.mjs": "sha384-qXHTSuZi+fOCKKWkS8zrcgEcOD3quE3UXfUFr3vFikAshJlQy8UpN+KbrtZ7il6k"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kinesis-video": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.911.0/index.min.mjs"
+                        "@aws-sdk/client-kinesis-video": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.913.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.911.0/index.min.mjs": "sha384-IH8qogHWOnJTcK8Yaw+TSbUqErMIHuFCl6SOYyAtLkoNcCKnpvrLwdqwStL2C2yL"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video@3.913.0/index.min.mjs": "sha384-qXHTSuZi+fOCKKWkS8zrcgEcOD3quE3UXfUFr3vFikAshJlQy8UpN+KbrtZ7il6k"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.911.0`)
+* Always pin to a specific version (`@3.913.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kinesis-video/blob/refs/tags/3.911.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kinesis-video/blob/refs/tags/3.913.0/LICENSE
 ```
 
 ---
